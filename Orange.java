@@ -24,9 +24,8 @@ public class Orange{
         return this.Origine;
     }
 
-    public static void main(String[] args){
-        Orange or1 = new Orange(25.0f, "Maroc");
-        Orange or2 = new Orange(-1.5f, "Espagne");
+    public void setOrigine(String origine) {
+        Origine = origine;
     }
 
 }
