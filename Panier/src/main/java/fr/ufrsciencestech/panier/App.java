@@ -13,7 +13,7 @@ public class App
         ArrayList<VueGraphique> lst = new ArrayList<VueGraphique>();
         Controleur c = new Controleur();
         
-        for(int i=0;i<2;i++){
+        for(int i=0;i<4;i++){
             VueGraphique j = new VueGraphique();
             j.ajoutControleur(c);
         }
