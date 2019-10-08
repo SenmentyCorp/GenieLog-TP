@@ -29,5 +29,15 @@ public class Orange{
     public void setOrigine(String origine) {
         Origine = origine;
     }
-
+    
+    @Override
+    public boolean equals(Object o){
+        if(o.getClass() == Orange.class){
+            Orange test = (Orange)(o);
+            
+            return ((test.getPrix() == this.Prix) && (test.getOrigine() == this.Origine));
+        }else{
+            return false;
+        }
+    }
 }
